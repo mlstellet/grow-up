@@ -1,0 +1,62 @@
+.servicos-container {
+    width: 90vw;
+    margin: 0 auto;
+    padding: 50px
+}
+
+.servicos-container h1 {
+    margin: 10px 0;
+}
+
+article {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.text, .image {
+    width: 45%;
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+section.video {
+    margin: 50px 0;
+
+    display: flex;
+    justify-content: center;
+}
+
+section.values {
+    text-align: center;
+}
+
+@media (max-width: 1100px) {
+    
+    article {
+        justify-content: center;
+    }
+
+    .text{
+        width: 100%;
+    }
+
+    .image {
+        width: 100%;
+    }
+
+    .reverse {
+        flex-wrap: wrap-reverse;
+    }
+}
+
