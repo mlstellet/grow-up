@@ -8,6 +8,7 @@
     margin: 0;
     padding: 0;
     font-family: 'Open Sans', sans-serif;
+    color: #9B9B9B;
 } 
 
 header {
@@ -65,8 +66,19 @@ button {
     cursor: pointer;
 }
 
+h1 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #009688;
+    text-transform: uppercase;
+}
 
-
+h2 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #009688;
+    text-transform: uppercase;
+}
 
 /* FOOTER */
 
@@ -107,18 +119,6 @@ footer p {
     margin: 28px 0;
 }
 
-.text h1 {
-    font-size: 40px;
-    font-weight: 700;
-    color: #009688;
-    text-transform: uppercase;
-}
-
-.text p 
-{
-    color: #9B9B9B;
-}
-
 
 
 @media (max-width: 1100px) {
@@ -153,82 +153,3 @@ footer p {
     }
 }
 
-/* TRABALHE CONOSCO */
-/* 
-
-.main h1 {
-    font-size: 40px;
-    color: #575757;
-}
-
-.trabalhe-conosco {
-
-    font-size: 18px;
-
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    color: #9B9B9B;
-}
-
-.form {
-    width: 500px;
-}
-
-form {
-    display: flex;
-    flex-direction: column;
-}
-
-.disponibilidade, .contato, textarea {
-    display: inline;
-    color: #575757;
-}
-
-.disponibilidade>label, .contato>label {
-    margin-right: 15px;
-}
-
-input, select, textarea {
-    border: 1px solid #9B9B9B;
-    padding: 3px;
-    margin: 0 0 12px 0;
-    color: #575757;
-}
-
-label {
-    margin: 0 0 3px;
-}
-
-input:not([type=checkbox], [type=radio]):active, 
-input:not([type=checkbox], [type=radio]):focus,
-textarea:active, textarea:focus,
-select:focus{
-    border: none;
-    outline: 2px solid #C2185B;
-}
-
-button {
-    font-size: 18px;
-    background-color: #C2185B;
-    color: #FFFFFF;
-    border: none;
-    padding: 10px;
-
-    transition: all 1s;
-}
-
-button:hover {
-    color: #C2185B;
-    background-color: #FFFFFF;
-    border: .3px solid #C2185B;
-}
-
-.info {
-    width: 500px;
-    color: #575757;
-}
-
-.info p {
-    margin: 0 0 20px ;
-} */
